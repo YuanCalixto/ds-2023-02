@@ -2,41 +2,35 @@
 
 O **design de software** é o processo de criar uma estrutura e plano abstrato para um sistema de software antes da programação efetiva. Ele visa definir como o software será estruturado e funcionará.
 
-## Atividades para Projetar um Software
+## Quais são as atividades necessárias para projetar um software?
 
 As atividades incluem:
 
-1. **Definição de Requisitos**:
-    - Identificação e documentação dos requisitos do software.
+1. **Preparação para o Projeto de Software:**
+   - Definir estratégia de projeto.
+   - Selecionar princípios de projeto.
+   - Identificar sistemas ou serviços necessários.
 
-2. **Análise**:
-    - Detalhamento e compreensão aprofundada dos requisitos.
+2. **Transformação de Características de Arquitetura:**
+   - Refinar interfaces e habilitadores.
+   - Estabelecer artefatos de projeto.
 
-3. **Design**:
-    - Criação de uma estrutura conceitual e planos abstratos.
-    - Definição da arquitetura geral e componentes principais.
+3. **Avaliação de Alternativas:**
+   - Escolher tecnologias e alternativas.
+   - Avaliar candidatas com critérios definidos.
 
-4. **Implementação (Codificação)**:
-    - Escrita do código real do software baseado no design.
+4. **Gerenciamento do Projeto:**
+   - Registrar projeto e rastreabilidade.
+   - Determinar status e fornecer artefatos.
 
-5. **Testes**:
-    - Verificação de que o software funciona conforme especificado.
+5. **Projeto Preliminar do Produto:**
+   - Definir solução e arquitetura.
+   - Avaliar rastreabilidade e critérios.
 
-6. **Integração e Teste de Sistema**:
-    - Integração de módulos/componentes e testes abrangentes.
+6. **Projeto Detalhado do Produto (Nível D):**
+   - Desenvolver estrutura e funcionalidade.
+   - Implementar de acordo com o projeto.
 
-7. **Implantação (Entrega)**:
-    - Disponibilização do software para uso real pelos usuários.
-
-8. **Manutenção**:
-    - Atualizações, correções de erros e adaptação às mudanças de requisitos.
-
-9. **Avaliação Contínua**:
-    - Monitoramento constante da eficácia do software.
-
-10. **Documentação**:
-    - Manutenção de documentação para referência e colaboração futura.
-
-## Conhecimento das Atividades e Entregáveis
+## Você tinha conhecimento destas atividades e os entregáveis correspondentes?
 
 Eu tinha conhecimento apenas de algumas dessas atividades e entregáveis, mas não estava ciente da totalidade do processo.
