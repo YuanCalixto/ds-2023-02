@@ -1,7 +1,10 @@
 package org.example;
 
 public class RaizQuadrada {
-    public static double calculateSquareRoot(double number, double epsilon) {
+
+    private static double EPSILON = 1e-10
+    
+    public static double calculateSquareRoot(double number) {
         if (number < 0) {
             throw new IllegalArgumentException("O número deve ser não negativo.");
         }
