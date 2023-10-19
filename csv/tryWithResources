@@ -1,0 +1,34 @@
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class CSVProcessor {
+    public static void main(String[] args) {
+        String inputFileName = "input.csv"; // Nome do arquivo de entrada
+        String outputFileName = "output.csv"; // Nome do arquivo de saída
+
+        try (
+            BufferedReader reader = new BufferedReader(new FileReader(inputFileName));
+            BufferedWriter writer = new BufferedWriter(new FileWriter(outputFileName))
+        ) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                String[] parts = line.split(",");
+                if (parts.length >= 2) {
+                    double col1 = Double.parseDouble(parts[0]);
+                    double col2 = Double.parseDouble(parts[1]);
+                    double sum = col1 + col2;
+
+                    // Escreve a linha no arquivo de saída com a coluna adicional contendo a soma
+                    writer.write(line + "," + sum + "\n");
+                }
+            }
+
+            System.out.println("Arquivo CSV processado com sucesso.");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
